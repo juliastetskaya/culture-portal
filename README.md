@@ -1,15 +1,16 @@
-# RSSchool Culture Portal
-
-### Task https://github.com/rolling-scopes-school/tasks/blob/2018-Q3/tasks/codejam-culture-portal.md
+# Culture Portal
 
 ## How to run project:
-#### npm install
+`npm install`
+
 Install packages
 
-#### npm start
+`npm start`
+
 Start project in develop mode
 
-#### npm build
+`npm build`
+
 Build production version
  
  
@@ -91,73 +92,3 @@ Build production version
 | 1h | add block with background image to the main page|
 | 1h | add inforomation of contribution of each member to the main page|
 | 3h | add common styles of pages, minor styling fixes in components |
-
-# Evaluation
-
-Total result - **220** / **240**
-
-### Min scope - **40** / **40**
-- [x] **10** Main page + page with a list of authors + author's page (only html);
-- [x] **10** Page with list of authors contains search widget;
-- [x] **20** Portal has two languages;
-
-### Normal scope - **130** / **130**
-- [x] **10** Author's page contains timeline;
-- [x] **10** Author's page contains video overlay;
-- [x] **20** Author's page contains photo gallery;
-- [x] **10** Author's page contains map (geowidget);
-- [x] **40** Project is made using react (max 40 - if all widgets are done in React);
-- [x] **20** Design;
-- [x] **20** material-ui / bootstrap is used 
-
-### Extra scope - **50**  / **70**
-- [x] **10** Confidence of the project presentation;
-- [x] **30** Project is made using gatsbyjs;
-- [ ] **20** contentful / netlify cms is used for content management
-- [x] **10** Portal has third language;
-
-
-# Contributing
-
-## Work with local branch
-
-* `git co master`
-* `git pull -r`
-* `git co -b my-new-branch`
-
-![](https://i.imgur.com/hREp2sG.png)
-
-do any changes you need
-
-* `git add`
-* `git ci -m "feat: my new feature"`
-* `git fetch && git merge origin/master` 
-**NOTE**: fix conflicts here before submiting merge request
-* `git push origin --set-upstream my-new-branch`
-![](https://i.imgur.com/0w58vo8.png)
-
-## Create PR
-![](https://i.imgur.com/di3vBuL.png)
-* create PR to master
-* add teammate to reviewers
-* send him/her your PR as a link
-![](https://i.imgur.com/VBlaXjq.png)
-![](https://i.imgur.com/iRVClVU.png)
-* receive __Approve__
-  * merge your branch to master
-  * delete branch
-  
-![](https://i.imgur.com/604Sxw2.png)
-![](https://i.imgur.com/nIU4QSV.png)
-* receive __Improvement Request__ with comments
-  * fix remarks
-  * push changes to your branch
-  * write to reviewer to recheck
-
-## Receive Approve Request
-* check code, code style in changes
-* check out `my-new-branch` to local
-* run and check if everything works fine and feature works
-* press Approve if it's __OK__ and write to teammate
-* if it's __NOT OK__ write comments on github PR
-  * write to teammate and ask to fix 
